@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 Run the visualizer:
 
-    python visualizer.py
+    python main.py
 
 # Future Enhancements
 
