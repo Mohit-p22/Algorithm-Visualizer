@@ -1,0 +1,49 @@
+# Core Libraries
+tkinter>=8.6  # Usually comes with Python installation
+pillow>=10.0.0  # For image handling
+numpy>=1.24.0  # For numerical operations
+scikit-learn>=1.0.2  # For machine learning
+
+# Development Tools (Optional)
+pylint>=2.17.0  # Code linting
+black>=23.3.0  # Code formatting
+pytest>=7.3.1  # Testing
+
+# Project Structure
+.
+├── algorithms/
+│   ├── __init__.py
+│   ├── dynamic.py
+│   ├── greedy.py
+│   └── divide_conquer.py
+├── visualizer/
+│   ├── __init__.py
+│   ├── dynamic_screen.py
+│   ├── greedy_screen.py
+│   └── divide_conquer_screen.py
+├── assets/
+│   └── images/
+├── main.py
+└── requirements.txt
+
+# Python Version
+Python >= 3.8
+
+# Operating System
+# Windows 10/11
+# Linux (Ubuntu 20.04 or later)
+# macOS 10.15 or later
+
+# Installation
+# 1. Create virtual environment:
+#    python -m venv venv
+#
+# 2. Activate virtual environment:
+#    Windows: venv\Scripts\activate
+#    Linux/Mac: source venv/bin/activate
+#
+# 3. Install requirements:
+#    pip install -r requirements.txt
+#
+# 4. Run the application:
+#    python main.py 
